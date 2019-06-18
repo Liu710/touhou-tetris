@@ -1,7 +1,6 @@
 ################################################################################
 # These are variables for the GBA toolchain build
 # You can add others if you wish to
-# Yaxiong Liu
 ################################################################################
 
 # The name of your desired GBA game
@@ -81,7 +80,7 @@ wxvba : $(PROGNAME).gba
 
 med : CFLAGS += $(CRELEASE)
 med : $(PROGNAME).gba
-	@echo "[EXECUTE] RUnning emulator Mednafen"
+	@echo "[EXECUTE] Running emulator Mednafen"
 	@mednafen $(PROGNAME).gba > /dev/null 2> 1
 
 -include $(CFILES:%.c=%.d)

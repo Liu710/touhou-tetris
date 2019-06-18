@@ -1,16 +1,22 @@
-Name: Yaxiong Liu
+## Introduction
+
+This is a class project for GaTech CS 2110
 
 This is a Touhou doujin game. Original touhou games and characters are designed by ZUN.
 
-This game is a Tetris game.
+## Game Description
 
-Goal: Defeat all opposite characters by increase the score to 2450.
+### Objective
+Defeat all opposite characters by increase the score to 2450.
 
-Score: the Score increase will be the the rows that eliminated times the difficulty (from 1 to 6, respect to the 6 opposite characters.
+### Score
+The Score increase will be the the rows that eliminated times the difficulty (from 1 to 6, respect to the 6 opposite characters.
 
-Skill Point: Skill point is the energy for character to use skill. Incease when rows are eliminated. It will be full when eliminate 20 rows.
+### Skill Point
+Skill point is the energy for character to use skill. Incease when rows are eliminated. It will be full when eliminate 20 rows.
 
-control:
+### Control (GBA)
+```
 	UP -> rotate the current piece
 	DOWN -> speed up the falling
 	LEFT -> move the current piece to left
@@ -19,15 +25,29 @@ control:
 	START -> Use in tile 
 	SELECT -> restart the game, when the game is playing, game over or game clear.
 	R -> use the kill of the character, if the the skill is ready
+```
 
-Characters:
-	Reimu: Skill: Fantasy Seal: Eliminate the 3 rows at bottom.
-		Example:	xxxxx
-				xxxxx
-				xxxxx
+### Characters
+#### Reimu
+##### Skill
+  - Fantasy Seal: Eliminate the 3 rows at bottom.
 
-	Cirno: Skill: I'am the strongest: Eliminate two triangle shapes at left side and right side, this skill just eliminate the shape, it won't let the rest falling down.
-		Example:	xooox
-				xxxxx
-				xooox
+    - Example:
+		
+		```
+		xxxxx
+		xxxxx
+		xxxxx
+		```
+
+#### Cirno
+##### Skill
+  - I'am the strongest: Eliminate two triangle shapes at left side and right side, this skill just eliminate the shape, it won't let the rest falling down.
+    - Example:	
+		
+		```
+		xooox
+		xxxxx
+		xooox
+		```
 
